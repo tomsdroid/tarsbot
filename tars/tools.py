@@ -53,17 +53,4 @@ def __helpers() -> str:
 Whois Lookup
 whois > example_domain.com
 -
-"""    
-
-def cli(u1):
-    a1 = u1[7:].split()
-    getHosts = a1[0].split(':')
-    getArgs = a1[1:]
-    host = getHosts[0]
-    port = getHosts[1]
-    print(f"Host: {host} Port: {port}\nArguments: {getArgs}")
-
-
-if __name__ == '__main__':
-    i1 = input('TARS: ')
-    cli(i1)
+"""
